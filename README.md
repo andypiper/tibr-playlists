@@ -1,6 +1,6 @@
 # The Indie Beat Radio Playlist Generator
 
-A Python utility for generating playlist files for The Indie Beat Radio stations.
+A Python utility for generating playlist files for [The Indie Beat Radio](https://theindiebeat.fm) stations, so that they can easily be added to a range of media players.
 
 ## Overview
 
