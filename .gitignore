@@ -1,0 +1,42 @@
+# Generated playlist files
+*.m3u
+*.pls
+*.xspf
+
+# Python boilerplate files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+.env
+.venv
+venv/
+ENV/
+.python-version
+
+# Old scripts we don't want to include
+api-to-playlists.py
+get-tibr-playlists.py
+
+# Editor specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
