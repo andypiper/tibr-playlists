@@ -4,19 +4,18 @@ A Python utility for generating playlist files for [The Indie Beat Radio](https:
 
 ## Overview
 
-A Python utility for generating playlist files for The Indie Beat Radio stations. The scripts fetch station data from the AzuraCast API and create standardized playlist files that can be imported into media players.
+A Python utility for generating playlist files for [The Indie Beat Radio](https://theindiebeat.fm) stations. It fetches station data from the [AzuraCast API](https://www.azuracast.com/docs/developers/now-playing-data/) and creates playlists (in .m3u, .pls and .xspf formats) that can be imported into media players.
 
 ## Scripts
 
-- **get-playlists.py** - Main playlist generator with health checks and multiple format options
-- **basic.py** - A simple utility to display station information in the terminal
+- **get-playlists.py** - playlist generator with health checks and multiple format options
+- **basic.py** - simple utility to display station information in the terminal
 
 ## Features
 
 - Generate playlists in multiple formats (XSPF, M3U, PLS)
 - Perform health checks on streams before including them
 - Display detailed information about available stations
-- Command-line arguments for customization
 
 ## Requirements
 
@@ -37,7 +36,7 @@ pip install requests aiohttp rich
 # With uv
 uv pip install requests aiohttp rich
 
-# Or use the script headers directly with uv
+# Or use directly with uv
 uv run get-playlists.py
 ```
 
